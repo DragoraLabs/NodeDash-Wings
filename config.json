@@ -1,0 +1,12 @@
+﻿{
+  "nodeId": "node-1",
+  "name": "Primary Node",
+  "host": "0.0.0.0",
+  "port": 8080,
+  "panelUrl": "http://127.0.0.1:3000",
+  "sharedSecret": "nodewings-shared-secret",
+  "heartbeatSeconds": 5,
+  "serversDir": "./servers",
+  "autoRestartDelaySeconds": 2,
+  "processManagerBinary": "./process_manager"
+}
